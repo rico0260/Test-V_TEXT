@@ -79,18 +79,14 @@ void presentation()
 void setup()
 {
   // Called once at startup, usually used to initialize sensors.
-  // This will be called continuously after setup.
-    //static bool first_message_sent = false;
-    //if (!first_message_sent) {
-      //ATTENTION 25 caractères maximum
-      Serial.print("node sent first message : "); Serial.println("first message by node");
-      send(msgTEXT.set("first message by node"));
-      //wait(LONG_WAIT);
-      
-      Serial.println("node request first message --> ");
-      request(CHILD_ID_TXT, V_TEXT);
-      //first_message_sent = true;
-    //}
+
+  //ATTENTION 25 caractères maximum
+  Serial.print("node sent first message : "); Serial.println("first message by node");
+  send(msgTEXT.set("first message by node"));
+  //wait(LONG_WAIT);
+  
+  Serial.println("node request first message --> ");
+  request(CHILD_ID_TXT, V_TEXT);
 
 }
 
