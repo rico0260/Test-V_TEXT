@@ -4,4 +4,4 @@
   test V_TEXT
   
 # Quick links
-- [my Thingiverse link](https://www.thingiverse.com/rico0260)
+- [Thingiverse link](https://www.thingiverse.com/rico0260)
